@@ -1,0 +1,117 @@
+.sec3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 60vh;
+  padding-top: 100px;
+  gap: 100px;
+  margin-bottom: 50px;
+}
+.sec3-1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sec3-2{
+  display: flex;
+  gap: 50px;
+}
+.box2{
+  border: 2px solid black;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 15px;
+  gap: 15px;
+  
+
+}
+.box2 >:nth-child(1){
+  font-size: 24px;
+  font-weight: 600;
+}
+.skills{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 40px;
+  
+}
+.skills1{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.skills1 img{
+  width: 30px;
+}
+.skills1-2{
+  display: flex;
+  flex-direction: column;
+}
+.skills1-2>:nth-child(1){
+  font-size: 18px;
+  font-weight: 600;
+}
+@media(max-width:1024px){
+  .sec3{
+    height: 40vh;
+  }
+  .sec3-2{
+    flex-direction: column;
+  }
+  .box2{
+  width: 500px;
+  ;
+  }
+  .box2 >:nth-child(1){
+    font-size: 28px;
+  }
+  .skills{
+    grid-template-columns: auto auto;
+    gap: 50px;
+    
+  }
+  .skills1{
+    gap: 15px;
+  }
+  .skills1 img{
+    width: 35px;
+  }
+  .skills1-2>:nth-child(1){
+    font-size: 23px;
+  }
+}
+@media(max-width:767px){
+  .sec3{
+    padding-top: 50px;
+    margin-top: 10px;
+    
+  }
+  
+  .sec3-2{
+    flex-direction: column;
+    padding-bottom: 100px;
+  }
+  .box2{
+  width: 300px;
+  }
+  .box2 >:nth-child(1){
+    font-size: 28px;
+  }
+  .skills{
+    grid-template-columns: auto auto;
+    gap: 25px;
+    
+  }
+  .skills1{
+    gap: 15px;
+  }
+  .skills1 img{
+    width: 30px;
+  }
+  .skills1-2>:nth-child(1){
+    font-size: 18px;
+  }
+}
